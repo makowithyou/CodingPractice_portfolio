@@ -30,6 +30,7 @@ h1, h2, h3, p, ol, ul, dl, dd {
 h2 {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 li {
     font-size: 12.8px;
@@ -76,6 +77,12 @@ header img.icon-instagram {
 div.mainvisual {
     background-image: url("https://lh3.googleusercontent.com/d/1aAe1z6zfRsEpOmD2XaYPWFEOSyfmyuZn");
     height: 420px;
+}
+section {
+    margin: 70px 0;
+}
+section.about {
+    margin-top: 80px;
 }
 
 @media (min-width: 600px) {
