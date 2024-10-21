@@ -28,7 +28,6 @@ h1, h2, h3, p, ol, ul, dl, dd {
 h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 40px;
 }
 li {
     font-size: 12.8px;
@@ -48,6 +47,7 @@ div.container {
 /* 狭い画面向けの既定の CSS レイアウト値 */
 h2 {
     margin-bottom: 40px;
+    text-align: center;
 }
 p:not(:last-of-type) {
     padding-bottom: 30px;
@@ -133,6 +133,18 @@ footer p {
 }
 @media (min-width: 600px) {
   /* 大型の画面向けの CSS */
+
+header {
+    margin: 121px 0;
+}
+header div.container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h1 {
+    padding-bottom: unset;
+}
+
 div.mainvisual {
     background-image: url("https://lh3.googleusercontent.com/d/1Yuwb9uHKg5CCrRUL4fz3JQhM2k1GoW6v");
 }
