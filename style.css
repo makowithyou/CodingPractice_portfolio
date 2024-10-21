@@ -81,6 +81,7 @@ header img.icon-instagram {
 div.mainvisual {
     background-image: url("https://lh3.googleusercontent.com/d/1aAe1z6zfRsEpOmD2XaYPWFEOSyfmyuZn");
     height: 420px;
+    background-size: cover;
 }
 section {
     margin: 70px 0;
