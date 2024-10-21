@@ -92,6 +92,9 @@ section.about {
 section.works {
     margin-bottom: 90px;
 }
+section.works div.images {
+    padding-top: 3px;
+}
 section.works img:not(:last-of-type) {
     padding-bottom: 23px;
 }
@@ -132,9 +135,17 @@ footer p {
     padding: 10px 0;
     text-align: center;
 }
+
+
 @media (min-width: 600px) {
   /* 大型の画面向けの CSS */
 
+h2 {
+    margin-bottom: 65px;
+}
+section {
+    margin: 130px 0;
+}
 header {
     margin: 121px 0;
 }
@@ -145,8 +156,33 @@ header div.container {
 header h1 {
     padding-bottom: unset;
 }
-
 div.mainvisual {
     background-image: url("https://lh3.googleusercontent.com/d/1Yuwb9uHKg5CCrRUL4fz3JQhM2k1GoW6v");
+}
+section.works div.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.works img {
+    width: 266px;
+    padding-bottom: 23px;
+}
+section.news {
+    margin-top: 127px;
+}
+section.news dl {
+    display: flex;
+}
+section.news dt {
+    padding-right: 78px;
+}
+div.input_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input, textarea {
+    width: 729px;
 }
 }
