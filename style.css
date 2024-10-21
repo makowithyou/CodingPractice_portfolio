@@ -13,9 +13,7 @@ body {
 }
 img {
     display: block;
-    /* atodekesu */
-    width: 100px;
-    /* atodekesu */
+    width: 100%;
 }
 li {
     list-style: none;
@@ -48,6 +46,12 @@ div.container {
 }
 
 /* 狭い画面向けの既定の CSS レイアウト値 */
+h2 {
+    margin-bottom: 40px;
+}
+p:not(:last-of-type) {
+    padding-bottom: 30px;
+}
 header {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -84,7 +88,49 @@ section {
 section.about {
     margin-top: 80px;
 }
-
+section.works {
+    margin-bottom: 90px;
+}
+section.works img:not(:last-of-type) {
+    padding-bottom: 23px;
+}
+section.news dl {
+    border-top: 1px solid var(--border-color);
+    padding: 15px;
+}
+section.news dl:last-of-type {
+    border-bottom: 1px solid var(--border-color);
+}
+div.input_group {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border: 1px solid var(--border-color);
+    height: 44px;
+    margin-bottom: 10px;
+}
+textarea {
+    border: 1px solid var(--border-color);
+    height: 166px;
+    margin-bottom: 30px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 85px;
+    border: unset;
+    background-color: var(--font-color);
+    color: #ffff;
+}
+footer {
+    background-color: var(--font-color);
+}
+footer p {
+    color: #ffff;
+    padding: 10px 0;
+    text-align: center;
+}
 @media (min-width: 600px) {
   /* 大型の画面向けの CSS */
 div.mainvisual {
