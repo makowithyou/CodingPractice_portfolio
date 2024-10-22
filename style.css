@@ -78,10 +78,9 @@ header img.icon-instagram {
     width: 20px;
     height: 20px;
 }
-div.mainvisual {
-    background-image: url("https://lh3.googleusercontent.com/d/1aAe1z6zfRsEpOmD2XaYPWFEOSyfmyuZn");
+div.mainvisual img {
     height: 420px;
-    background-size: cover;
+    object-fit: cover;
 }
 section {
     margin: 70px 0;
@@ -155,9 +154,6 @@ header div.container {
 }
 header h1 {
     padding-bottom: unset;
-}
-div.mainvisual {
-    background-image: url("https://lh3.googleusercontent.com/d/1Yuwb9uHKg5CCrRUL4fz3JQhM2k1GoW6v");
 }
 section.works div.images {
     display: flex;
